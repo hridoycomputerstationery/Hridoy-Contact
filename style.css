@@ -2,141 +2,156 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    font-family:Arial,sans-serif;
-    background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:25px;
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    padding:20px;
 }
 
 .card{
-    width:390px;
-    background:rgba(255,255,255,.96);
-    backdrop-filter:blur(15px);
-    border-radius:28px;
+    width:380px;
+    background:#fff;
+    border-radius:25px;
     padding:30px;
     text-align:center;
-    box-shadow:0 25px 60px rgba(0,0,0,.35);
-    animation:fadeUp .8s;
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+    animation:fadeUp .8s ease;
 }
 
 .logo{
     width:180px;
     display:block;
-    margin:auto;
-    margin-bottom:18px;
+    margin:0 auto 20px;
 }
 
-h2{
+h1{
     color:#0f172a;
-    font-size:36px;
+    font-size:34px;
     line-height:1.2;
     font-weight:800;
-    margin-bottom:10px;
+    margin-bottom:12px;
 }
 
-p{
-    color:#f97316;
+.subtitle{
+    color:#ff6600;
     font-size:22px;
     font-weight:bold;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .btn{
-    display:block;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
     text-decoration:none;
     color:#fff;
-    padding:17px;
-    border-radius:14px;
+    padding:16px;
     margin:14px 0;
-    font-size:22px;
+    border-radius:14px;
+    font-size:20px;
     font-weight:bold;
     transition:.35s;
 }
 
 .btn:hover{
-    transform:translateY(-4px) scale(1.03);
+    transform:translateY(-3px) scale(1.03);
     box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
 .call{
-    background:linear-gradient(90deg,#16a34a,#22c55e);
+    background:#16a34a;
 }
 
 .whatsapp{
-    background:linear-gradient(90deg,#22c55e,#25D366);
+    background:#25D366;
 }
 
 .facebook{
-    background:linear-gradient(90deg,#1877F2,#3b82f6);
+    background:#1877F2;
 }
 
 .map{
-    background:linear-gradient(90deg,#ea4335,#ff5d4d);
+    background:#EA4335;
 }
 
 .website{
-    background:linear-gradient(90deg,#0f766e,#14b8a6);
+    background:#0f766e;
 }
 
 .services{
-    margin-top:25px;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:10px;
+    margin-top:25px;
 }
 
 .services div{
-    background:#eef4ff;
-    border-radius:10px;
-    padding:10px;
-    font-weight:700;
-    color:#0f172a;
+    background:#f3f4f6;
+    border-radius:12px;
+    padding:12px;
+    font-weight:bold;
+    color:#1e293b;
+    transition:.3s;
+}
+
+.services div:hover{
+    background:#2563eb;
+    color:#fff;
 }
 
 .footer{
-    margin-top:22px;
+    margin-top:25px;
     color:#666;
     font-size:15px;
 }
 
 @keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(40px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
 }
 
 @media(max-width:500px){
 
 .card{
-    width:100%;
-    padding:25px;
+width:100%;
+padding:22px;
 }
 
 .logo{
-    width:160px;
+width:150px;
 }
 
-h2{
-    font-size:30px;
+h1{
+font-size:28px;
 }
 
-p{
-    font-size:18px;
+.subtitle{
+font-size:18px;
 }
 
 .btn{
-    font-size:19px;
+font-size:18px;
+padding:15px;
+}
+
+.services{
+grid-template-columns:1fr;
 }
 
 }
