@@ -1,8 +1,18 @@
 BEGIN:VCARD
 VERSION:3.0
+N:Mistry;Hridoy;;;
 FN:Hridoy Mistry
 ORG:HRIDOY COMPUTER & STATIONERY
-TEL:+8801716755214
-TEL:+8801577024979
-ADR:;;Upazila Jame Masjid Market;Rajapur;Jhalokathi;;Bangladesh
+TITLE:Proprietor
+
+TEL;TYPE=CELL:+8801716755214
+TEL;TYPE=WORK:+8801577024979
+
+EMAIL:
+URL:https://hridoycomputerstationery.github.io/Hridoy-Contact/
+
+ADR;TYPE=WORK:;;Upazila Jame Masjid Market;Rajapur;Jhalokathi;;Bangladesh
+
+NOTE:Computer Sales, Printer & Scanner, Photocopy, Print, Stationery, Passport Photo, Online Services & Computer Accessories.
+
 END:VCARD
