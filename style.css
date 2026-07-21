@@ -2,16 +2,16 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:'Segoe UI',sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#0f172a,#2563eb);
+    background:linear-gradient(135deg,#0f1f5c,#2d6cff);
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:25px;
+    padding:30px 15px;
 }
 
 .container{
@@ -24,16 +24,15 @@ body{
     width:420px;
     background:#fff;
     border-radius:25px;
-    box-shadow:0 20px 50px rgba(0,0,0,.35);
     padding:30px;
     text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
 }
 
 .logo{
-    width:220px;
+    width:190px;
     display:block;
-    margin:auto;
-    margin-bottom:15px;
+    margin:0 auto 15px;
 }
 
 .badge{
@@ -43,22 +42,24 @@ body{
     padding:8px 18px;
     border-radius:50px;
     font-size:14px;
+    font-weight:600;
     margin-bottom:20px;
 }
 
 h1{
-    color:#0f172a;
-    font-size:34px;
+    font-size:36px;
+    color:#111827;
     line-height:1.25;
     margin-bottom:15px;
+    font-weight:800;
 }
 
 .subtitle{
     color:#ff6600;
     font-size:20px;
     font-weight:bold;
-    margin-bottom:25px;
     line-height:1.6;
+    margin-bottom:25px;
 }
 
 .btn{
@@ -69,16 +70,16 @@ h1{
     text-decoration:none;
     color:#fff;
     padding:16px;
+    margin-bottom:14px;
     border-radius:12px;
     font-size:20px;
     font-weight:bold;
-    margin-bottom:14px;
     transition:.3s;
 }
 
 .btn:hover{
     transform:translateY(-3px);
-    box-shadow:0 10px 20px rgba(0,0,0,.25);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
 }
 
 .call{
@@ -106,17 +107,17 @@ h1{
 }
 
 .services{
-    margin-top:30px;
+    margin-top:25px;
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:12px;
 }
 
 .services div{
-    background:#f4f4f4;
-    border-radius:10px;
+    background:#f3f4f6;
     padding:12px;
-    font-weight:bold;
+    border-radius:10px;
+    font-weight:600;
     color:#333;
     transition:.3s;
 }
@@ -127,8 +128,8 @@ h1{
 }
 
 .footer{
-    margin-top:30px;
-    color:#777;
+    margin-top:25px;
+    color:#666;
     font-size:14px;
 }
 
@@ -136,15 +137,15 @@ h1{
 
 .card{
     width:100%;
-    padding:22px;
+    padding:20px;
 }
 
 .logo{
-    width:180px;
+    width:160px;
 }
 
 h1{
-    font-size:26px;
+    font-size:28px;
 }
 
 .subtitle{
